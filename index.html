@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>hello there</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+      /*background: #ffffff;*/
+      background-color: #f0f0f0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    section {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 0;
+      background-color: #f0f0f0;
+      font-size: 0.9rem;
+    }
+    h2 {
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.5rem;
+    }
+    h2:hover {
+      color: #e0da84;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      padding: 0.5rem 1rem;
+      background: #007acc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Artem "mokrun" Makurin</h1>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm an IT professional with experience in designing, testing, mantaining web and desktop applications. Originally from Yaroslavl, I've lived and worked on Cyprus for more than 5 years before finally settling in Prague, CZ. Most recently, I'm working as a QA Automation Engineer.</p>
+  </section>
+  <section id="links">
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://github.com/artemmakur">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/makurinartem">LinkedIn</a></li>
+      <li><a href="https://rix.rest">Partners</a></li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Get in touch</h2>
+    <p>Feel free to reach out via <a href="mailto:artem@makur.in">email</a> or by using the form.</p>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+ <footer>
+    <p>© 2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
